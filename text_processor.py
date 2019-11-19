@@ -11,6 +11,9 @@ tokenizer = ToktokTokenizer()
 stopwords_list = nltk.corpus.stopwords.words('english')
 
 def expand_contractions(text, c_map = CONTRACTION_MAP):
+    """
+    Expands contractions like 'aren't' to 'are not', 'didn't' to 'did not' etc.
+    """
     words = text.split()
     expanded_words_list = [c_map[word] if word in c_map else word for word in words]
     expanded_text = ' '.join(expanded_words_list)
@@ -31,11 +34,10 @@ def remove_special_chars(text, remove_digits=False):
 def lemmatize_text(text):
     """
     Lemmatize the words using spacy
-    Note: Pronouns are excluded (eg: he, she, my, it etc...)
     """
     try:
         text = sp(text)
-        text = ' '.join([word.lemma_ if word.lemma_ != '-PRON-' else word.text for word in text])
+        text = ' '.join([word.lemma_ if word.lemma_ != '-PRON-' else word.text for word in text])    
     except TypeError:
         pass
     return text
