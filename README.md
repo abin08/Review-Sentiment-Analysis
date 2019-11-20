@@ -1,6 +1,6 @@
 # Review-Sentiment-Analysis
 
-Uses multinomial naive bayes algorithm to classify customer reviews into positive, negative and complaints.
+Uses Multinomial Naive Bayes algorithm to classify customer reviews into positive, negative and complaints.
 
 Run sentiment_analyser.ipynb to see the results
 
