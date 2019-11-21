@@ -13,7 +13,7 @@ Obtained the dataset from:
       
 ## Instructions
 #### 1. Download dataset
-        Download amazon_reviews dataset from the first link and keep it in the directory 'datasets' in root of the project.
+        Download 'amazon_reviews' dataset from the first link and paste it in the directory 'datasets'
 #### 2. prepare_dataset.ipynb
         Prepares the datasets from csv files, filter outs unwanted columns, etc.
 #### 3. feature_extraction.ipynb
