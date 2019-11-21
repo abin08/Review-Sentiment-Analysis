@@ -12,6 +12,8 @@ Obtained the dataset from:
   https://www.kaggle.com/shitalkat/amazonearphonesreviews
       
 ## Instructions
+#### 1. Download dataset
+        Download amazon_reviews dataset from the first link and keep it in the directory 'datasets' in root of the project.
 #### 1. prepare_dataset.ipynb
         Prepares the datasets from csv files, filter outs unwanted columns, etc.
 #### 2. feature_extraction.ipynb
