@@ -11,3 +11,13 @@ Obtained the dataset from:
   https://www.kaggle.com/datafiniti/consumer-reviews-of-amazon-products
   https://www.kaggle.com/shitalkat/amazonearphonesreviews
       
+## Instructions
+#### 1. prepare_dataset.ipynb
+        Prepares the datasets from csv files, filter outs unwanted columns, etc.
+#### 2. feature_extraction.ipynb
+        Extracts features from the prepared dataset, creates training and testing datasets
+#### 3. MulinomialNB.ipynb
+        Creates a Multinomial Naive Bayes model from the training data
+#### 4. sentiment_analyser.ipynb
+        Performs sentiment analysis on the given text using the model created.
+        The function sentiment_analysis(text) gives the sentiment of the text argument passed
