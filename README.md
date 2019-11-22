@@ -13,7 +13,8 @@ Obtained the dataset from:
       
 ## Instructions
 #### 1. Download dataset
-        Download dataset from the first link and paste the downloaded directory 'amazon_reviews' in the directory named 'datasets'.
+        Download dataset from the link and paste the downloaded directory 'amazon_reviews' in the directory named 'datasets'.
+        https://drive.google.com/open?id=1VfxUSRxRsEBt-thnU8ge7vnIlLmOHuSx
 #### 2. Install requirements
         1. pip install -r requirements.txt
         2. Download spacy language model using the command 'python3 -m spacy download en'
