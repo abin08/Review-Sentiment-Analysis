@@ -13,11 +13,11 @@ Obtained the dataset from:
       
 ## Instructions
 #### 1. Download dataset
-        Download 'amazon_reviews' dataset from the first link and paste it in the directory 'datasets'.
+        Download dataset from the first link and paste the downloaded directory 'amazon_reviews' in the directory named 'datasets'.
 #### 2. Install requirements
         1. pip install -r requirements.txt
         2. Download spacy language model using the command 'python3 -m spacy download en'
-        3. Download nltk vader_lexicon using the command 'python3 -m nltk.downloader vader_lexicon'
+        3. Enter the command '$ jupyter notebook' to start jupyter notebook to run the following files
 #### 3. Run the files
         1. prepare_dataset.ipynb
             Prepares the datasets from csv files, filter outs unwanted columns, etc.
