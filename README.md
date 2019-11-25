@@ -18,8 +18,8 @@ Obtained the dataset from:
 #### 2. Install requirements
         1. pip install -r requirements.txt
         2. Download spacy language model using the command 'python3 -m spacy download en'
-        3. Download nltk stopwords using the command 'python -m nltk.downloader stopwords'
-        4. Download nltk vader lexicon using the command 'python -m nltk.downloader vader_lexicon'
+        3. Download nltk stopwords using the command 'python3 -m nltk.downloader stopwords'
+        4. Download nltk vader lexicon using the command 'python3 -m nltk.downloader vader_lexicon'
         4. Enter the command '$ jupyter notebook' to start jupyter notebook to run the following files
 #### 3. Run the files
         1. prepare_dataset.ipynb
