@@ -3,3 +3,4 @@ Untitled.ipynb
 __pycache__/
 datasets/amazon_reviews
 datasets/amazon_reviews/
+.vscode/
